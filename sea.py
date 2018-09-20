@@ -46,7 +46,7 @@ for p in range (1,2):#next line of code is file location on laptop or desktop
                             if 500>b>200 and 50<d<400 and 50<f<600:# b d anf f are sum of pixel values for each colour
                              for v in range (1,5): 
                               for w in range (1,5): 
-                               im.putpixel([-50 + v + s*100 + 19*k ,-70+w + 19*m + r*114],(20,20,255))#puts a square of red pixels on image where intensity was inside the red,green and blue range criteria
+                               im.putpixel([-50 + v + s*100 + 19*k ,-70+w + 19*m + r*114],(250,20,20))#puts a square of red pixels on image where intensity was inside the red,green and blue range criteria
                         b=0 
                         d=0
                         f=0
